@@ -1,0 +1,175 @@
+﻿<repository
+id="c9784b6c-f8aa-4536-b663-949bb55c9449"
+name="SimpleRanorexUiTestRepository"
+rxversion="8.2">
+	<codegen
+	classname="SimpleRanorexUiTestRepository"
+	namespace="SimpleRanorexUiTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7731005b-d34c-400b-9b2e-6ec52297551d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="98c569c6-79cd-4ad0-995c-43154ef81d03"
+		isrooted="True"
+		name="NBCTVNetworkShowsEpisodesSchedu"
+		refpath="/dom[@domain='www.nbc.com' and @caption='NBC TV Network - Shows, Episodes, Schedule']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a58a650a-63eb-4764-8124-2cf9246f5850"
+			name="Shows"
+			refimgid="28b7b66c-4278-4cb9-8a3f-b4b22baee74e"
+			refpath="/dom[@domain='www.nbc.com' and @caption~'^NBC\ TV\ Network\ -\ Shows,\ E']//div[#'app']/div/header/div/div/nav/div/ul/li[2]/a/span[@innertext='Shows']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^NBC\ TV\ Network\ -\ Shows,\ E']//div[#'app']/?/?/header//nav/?/?/ul/li[2]/?/?/span[@innertext='Shows']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b2fadd1b-06c3-49fe-b957-51e836b88f9d"
+			name="Shop"
+			refimgid="83839a73-ff5c-48bd-b105-29e19521336a"
+			refpath="/dom[@domain='www.nbc.com' and @caption~'^NBC\ TV\ Network\ -\ Shows,\ E']//div[#'app']/div/header/div/div/nav/div/ul/li[6]/a/span[@innertext='Shop']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^NBC\ TV\ Network\ -\ Shows,\ E']//div[#'app']/?/?/header//nav/?/?/ul/li[6]/?/?/span[@innertext='Shop']
+			</item>
+			<basepath>
+				/dom[@caption~'^NBC\ TV\ Network\ -\ Shows,\ E']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="1838991b-d118-4bb0-aec9-5230bdb9e34c"
+		isrooted="True"
+		name="NBCOfficialStoreTShirtsGiftsMu"
+		refpath="/dom[@domain='www.nbcstore.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="ee531e62-2604-493d-95d1-5d7c004da6af"
+			name="HttpsWwwNbcstoreComSkinFrontendS"
+			refimgid="93de9372-6489-4700-88f2-94d05996da69"
+			refpath="/dom[@domain='www.nbcstore.com']//header[#'header']/div/a/img[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.nbcstore.com']//header[#'header']/?/?/a[@href='https://www.nbcstore.com/']/img[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="122e2aa2-49fc-4f66-9596-8c4af1e0d36c"
+			name="ShopByBravo"
+			refimgid="a67aa6b8-b3b1-482c-8884-c3f778c81bf3"
+			refpath="/dom[@domain='www.nbcstore.com']/body/div[3]/div/div[7]/div[2]/ul/li[5]/ul/li[2]/a[@innertext='Shop By Bravo']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.nbcstore.com']/body/div[3]/div/div[7]/div[2]/ul/li[5]/ul/?/?/a[@innertext='Shop By Bravo']
+			</item>
+			<basepath>
+				/dom[@domain='www.nbcstore.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="da82cec8-766c-46cb-bf94-cc183458ebe0"
+		isrooted="True"
+		name="NBCOfficialStoreTShirtsGiftsMu1"
+		refpath="/form[@title='NBC Official Store | T-Shirts, Gifts, Mugs and DVDs for your favorite shows - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="a00f342c-78b2-4adb-b625-593f7a8f20c4"
+			name="Pane"
+			refimgid="99460b1e-720c-422d-ae26-cbc10acc4023"
+			refpath="/form[@title~'^NBC\ Official\ Store\ \|\ T-Sh']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^NBC\ Official\ Store\ \|\ T-Sh']/container[@accessiblename~'^NBC\ Official\ Store\ \|\ T-Sh']/container/container[1]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="63cb7130-f25f-4f64-b08a-effa67953f56"
+			name="Pane1"
+			refimgid="005e3c5a-5c22-4fea-9224-a6a6a43fd538"
+			refpath="/form[@title~'^reselbob/SimpleRanorexUiT']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^NBC\ Official\ Store\ \|\ T-Sh']/container[@accessiblename~'^reselbob/SimpleRanorexUiT']/container/container[1]
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e16644fd-bc6b-4dbe-98f3-fa09d765b3e7"
+			name="NBCOfficialStoreTShirtsGiftsMu"
+			refimgid="d2dabba1-88e2-4803-9e65-18c882db1ff3"
+			refpath="/form[@title~'^reselbob/SimpleRanorexUiT']/container/container/container[2]/container[2]/tabpagelist/tabpage[@accessiblename~'^NBC\ Official\ Store\ \|\ T-Sh']/text[@accessiblename~'^NBC\ Official\ Store\ \|\ T-Sh']"
+			searchtimeout="30000ms">
+				/form[@title~'^NBC\ Official\ Store\ \|\ T-Sh']/container[@accessiblename~'^reselbob/SimpleRanorexUiT']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^NBC\ Official\ Store\ \|\ T-Sh']/text[@accessiblename~'^NBC\ Official\ Store\ \|\ T-Sh']
+			</item>
+			<basepath>
+				/form[@title~'^NBC\ Official\ Store\ \|\ T-Sh']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
